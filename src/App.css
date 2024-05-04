@@ -1,0 +1,22 @@
+/* Main container styling */
+.App {
+  text-align: center;
+  width: 100%; /* Full width */
+  max-width: 100%; /* No maximum width constraint */
+  margin: 0; /* Remove margin */
+  padding: 0; /* No padding */
+  background-color: transparent; /* No background */
+  box-shadow: none; /* No shadow */
+}
+
+/* Body styling adapted to remove vertical centering */
+body {
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  background-color: #f4f4f4;
+}
+
